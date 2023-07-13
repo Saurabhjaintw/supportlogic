@@ -12,7 +12,7 @@ export const getData = createAsyncThunk(
         lang ?? "en" ?? "zh" ?? "fr"
       }&country=${
         country ?? "in" ?? "cn" ?? "fr"
-      }&max=10&apikey=1966e504881b0656e2feda068db73d72`
+      }&max=10&apikey=146c9e06c6ba693279a0873d1d91fe77`
     )
       .then((res) => res.json())
       .then((json) =>
