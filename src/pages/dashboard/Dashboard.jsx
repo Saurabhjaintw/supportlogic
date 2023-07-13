@@ -25,12 +25,12 @@ export const Dashboard = () => {
   }, [dispatch, lang, country]);
 
   useEffect(() => {
-    if (count > data?.length) {
+    if (count >= data?.length) {
+      console.log("count", count, "data?.length", data?.length);
       setIsNextDisable(true);
     } else {
       setIsNextDisable(false);
     }
-
     if (article <= 0) {
       setIsBackDisable(true);
     } else {
