@@ -35,7 +35,7 @@ export const Dashboard = () => {
     } else {
       setIsBackDisable(false);
     }
-  }, [article, count]);
+  }, [article, count, data]);
 
   const handleNext = () => {
     setArticle(article + 3);
