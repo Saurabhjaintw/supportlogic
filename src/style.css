@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.cardParent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  gap: 15px;
+}
+
+.buttonParent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+}
+.input-seach {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin: 10px 10px;
+}
