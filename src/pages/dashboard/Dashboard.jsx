@@ -26,7 +26,6 @@ export const Dashboard = () => {
 
   useEffect(() => {
     if (count >= data?.length) {
-      console.log("count", count, "data?.length", data?.length);
       setIsNextDisable(true);
     } else {
       setIsNextDisable(false);
